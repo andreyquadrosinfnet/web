@@ -1,12 +1,9 @@
 import 'package:auto_size_text_pk/auto_size_text_pk.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web_teste2/components/big_header.dart';
-import 'package:flutter_web_teste2/components/personal_infos.dart';
 import 'package:flutter_web_teste2/components/programming_skills.dart';
 import 'package:flutter_web_teste2/components/sliverappbar_custom.dart';
 import 'package:flutter_web_teste2/components/soft_skills.dart';
-import 'package:flutter_web_teste2/utils/animated_progress_indicator.dart';
-import 'package:flutter_web_teste2/utils/styles.dart';
 import 'package:styled_text/styled_text.dart';
 
 class AboutScreen extends StatefulWidget {

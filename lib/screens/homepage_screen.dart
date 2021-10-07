@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_teste2/components/personal_infos.dart';
 import 'package:flutter_web_teste2/components/sliverappbar_custom.dart';
-import 'package:flutter_web_teste2/utils/carrousel_slider.dart';
-import 'package:flutter_web_teste2/utils/styles.dart';
 
 class HomePageScreen extends StatefulWidget {
   const HomePageScreen({Key? key}) : super(key: key);
@@ -20,11 +18,9 @@ class _HomePageScreenState extends State<HomePageScreen> {
         slivers: [
           // ignore: prefer_const_constructors
           SliverAppBarC(),
-
           const SliverToBoxAdapter(
             child: PersonalInfos(),
           ),
-
         ],
       ),
     );
